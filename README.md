@@ -33,4 +33,13 @@ time docker run -it --rm --net=host --runtime nvidia  -e DISPLAY=$DISPLAY -v /tm
 sudo jetson_clocks --restore
 ```
 
+## Questions
+### What parameters did you change? 
+### What values did you try?
+### Did you try any other changes that made things better or worse?
+### Did they improve or degrade the model? Did you have a test run with 100% of the scores above 200?
+### Based on what you observed, what conclusions can you draw about the different parameters and their values? 
+### What is the purpose of the epsilon value?
+### Describe "Q-Learning".
+
 
