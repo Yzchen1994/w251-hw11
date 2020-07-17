@@ -119,6 +119,8 @@ Attempt 1 make it worse.
 ### Did they improve or degrade the model? Did you have a test run with 100% of the scores above 200?
 ### Based on what you observed, what conclusions can you draw about the different parameters and their values? 
 ### What is the purpose of the epsilon value?
+It's the % of time that model tries random value. At the beginning, we want epsilon to be high so that you take big leaps and learn things.
+
 ### Describe "Q-Learning".
 Q learning is kind of model-free reinforcement learning algorithm that tells an agent what action to take under certain circumstances. It's a model-free algorithm.
 
