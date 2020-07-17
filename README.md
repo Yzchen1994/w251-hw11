@@ -41,5 +41,6 @@ sudo jetson_clocks --restore
 ### Based on what you observed, what conclusions can you draw about the different parameters and their values? 
 ### What is the purpose of the epsilon value?
 ### Describe "Q-Learning".
+Q learning is kind of model-free reinforcement learning algorithm that tells an agent what action to take under certain circumstances. It's a model-free algorithm.
 
 
