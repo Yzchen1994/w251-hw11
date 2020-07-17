@@ -90,7 +90,27 @@ Attempt 2
         # Learning rate
         self.lr = 0.001
 ```
-Result
+Result: Average Reward:  -40.58876700820234 epsilon:  0.00998645168764533
+
+Attempt 3
+```
+        # Change these parameters to improve performance
+        self.density_first_layer = 128
+        self.density_second_layer = 64
+        self.num_epochs = 1
+        self.batch_size = 128
+        self.epsilon_min = 0.01
+
+        # epsilon will randomly choose the next action as either
+        # a random action, or the highest scoring predicted action
+        self.epsilon = 1.0
+        self.epsilon_decay = 0.995
+        self.gamma = 0.99
+
+        # Learning rate
+        self.lr = 0.001
+```
+Result: 
 
 ### What values did you try?
 ### Did you try any other changes that made things better or worse?
